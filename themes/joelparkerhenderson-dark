@@ -1,4 +1,4 @@
-# Ghostty theme joelparkerhenderson
+# Ghostty theme joelparkerhenderson-dark
 #
 # https://ghostty.org/docs/features/theme
 #
@@ -30,6 +30,7 @@
 #
 # - Replace "c" with "d"
 # - Replace "8" with "c"
+# - Replace Red "ff0000" with Light Red "ffcccc"
 
 palette = 0=#000000
 palette = 1=#c00000
@@ -40,7 +41,7 @@ palette = 5=#c000c0
 palette = 6=#00c0c0
 palette = 7=#c0c0c0
 palette = 8=#c0c0c0
-palette = 9=#ffc0c0
+palette = 9=#ffcccc
 palette = 10=#00ff00
 palette = 11=#ffff00
 palette = 12=#0000ff
