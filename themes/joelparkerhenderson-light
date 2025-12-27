@@ -1,0 +1,67 @@
+# Ghostty theme joelparkerhenderson-dark
+#
+# https://ghostty.org/docs/features/theme
+#
+# Theme lookup by name searches two directories:
+#
+#     $XDG_CONFIG_HOME/ghostty/themes
+#     $PREFIX/share/ghostty/themes
+
+# ## Palette numbers with Xterm color defaults
+#
+# palette = 0=#000000 Black
+# palette = 1=#800000 Maroon
+# palette = 2=#008000 Green
+# palette = 3=#808000 Olive
+# palette = 4=#000080 Navy
+# palette = 5=#800080 Purple
+# palette = 6=#008080 Teal
+# palette = 7=#c0c0c0 Silver
+# palette = 8=#808080 Grey
+# palette = 9=#ff0000 Red
+# palette = 10=#00ff00 Lime
+# palette = 11=#ffff00 Yellow
+# palette = 12=#0000ff Blue
+# palette = 13=#ff00ff Fuchsia
+# palette = 14=#00ffff Aqua
+# palette = 15=#ffffff White
+#
+# I prefer brighter:
+#
+# - Replace "c" with "d"
+# - Replace "8" with "c"
+
+palette = 0=#000000
+palette = 1=#c00000
+palette = 2=#00c000
+palette = 3=#c0c000
+palette = 4=#0000c0
+palette = 5=#c000c0
+palette = 6=#00c0c0
+palette = 7=#c0c0c0
+palette = 8=#c0c0c0
+palette = 9=#ffc0c0
+palette = 10=#00ff00
+palette = 11=#ffff00
+palette = 12=#0000ff
+palette = 13=#ff00ff
+palette = 14=#00ffff
+palette = 15=#ffffff
+
+# I prefer highest contrast:
+#
+# background = ffffff White
+# foreground = 000000 Black
+
+background = ffffff
+foreground = 000000
+
+# ## My preference
+#
+# cursor-color = ff8888 Light Red
+# selection-background = aaaaaa Light Gray
+# selection-foreground = 000000 Black
+
+cursor-color = ff8888
+selection-background = aaaaaa
+selection-foreground = 000000

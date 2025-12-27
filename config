@@ -50,7 +50,7 @@
 
 ### Visuals
 
-theme = joelparkerhenderson-dark
+theme = light:joelparkerhenderson-light,dark:joelparkerhenderson-dark
 
 # window-theme controls the theme/appearance of the window decorations
 # (titlebar, borders) - separate from the terminal color theme Ghostty.
