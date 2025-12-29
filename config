@@ -69,6 +69,20 @@ window-padding-y = 10
 font-family = IosevkaTerm Nerd Font Mono
 font-size = 12
 
+# Ghostty doesn’t support specifying font weight; it offers synthetic bolding.
+# The font-thicken option (macOS only) artificially adds stroke weight.
+# The font-thicken-strength parameter (0-255) lets you set how much.
+# <https://nohzafk.github.io/posts/2025-12-04-configing-ghostty-to-match-wezterm/>
+
+font-thicken = true
+font-thicken-strength = 150
+
+# Text in Ghostty appears more spread out horizontally due to roughly 1 pixel.
+# To fix this wide letter spacing, we tighten the horizontal cell width by 5%.
+# <https://nohzafk.github.io/posts/2025-12-04-configing-ghostty-to-match-wezterm/>
+
+adjust-cell-width = -5%
+
 # To disable programming ligatures, use -calt since this is the typical
 # feature name for programming ligatures. To look into what font features your
 # font has and what they do, use a font inspection tool such as fontdrop.info.
@@ -85,9 +99,16 @@ mouse-hide-while-typing = true
 scrollback-limit = 10000000
 
 ### Shell integration
+
 shell-integration = zsh
 shell-integration-features = no-cursor
 # note: see zsh/.zshrc "ghostty integration"
+
+### Fix macOS color saturation
+
+# On macOS systems, color saturation looks faded, like viewing it through fog.
+# Ghostty defaults to sRGB, but on macOS displays, display-p3 looks better.
+# <https://nohzafk.github.io/posts/2025-12-04-configing-ghostty-to-match-wezterm/>
 
 # window-colorspace = srgb
 window-colorspace = display-p3
