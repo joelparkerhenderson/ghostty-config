@@ -1,0 +1,74 @@
+# Jojo dark color theme for Ghostty
+#
+# Jojo is a color theme especially good for high-visibility coding
+# in a wide range of environments and for multi-person programming.
+# 
+# Jojo is based on Xterm color defaults, with some fine-tuning for
+# slightly-brighter colors, slightly-higher contrast, and preferences
+# for navigation colors for the active cursor and active. selection.
+#
+# https://ghostty.org/docs/features/theme
+#
+# Theme lookup by name searches two directories:
+#
+#     $XDG_CONFIG_HOME/ghostty/themes
+#     $PREFIX/share/ghostty/themes
+#
+# Jojo theme is based on Xterm color defaults:
+#
+# - 0=#000000 Black
+# - 1=#800000 Maroon
+# - 2=#008000 Green
+# - 3=#808000 Olive
+# - 4=#000080 Navy
+# - 5=#800080 Purple
+# - 6=#008080 Teal
+# - 7=#c0c0c0 Silver
+# - 8=#808080 Grey
+# - 9=#ff0000 Red
+# - 10=#00ff00 Lime
+# - 11=#ffff00 Yellow
+# - 12=#0000ff Blue
+# - 13=#ff00ff Fuchsia
+# - 14=#00ffff Aqua
+# - 15=#ffffff White
+#
+# Jojo theme uses these slightly-brighter colors:
+#
+# - Replace "c" with "d"
+# - Replace "8" with "c"
+
+palette = 0=#000000
+palette = 1=#c00000
+palette = 2=#00c000
+palette = 3=#c0c000
+palette = 4=#0000c0
+palette = 5=#c000c0
+palette = 6=#00c0c0
+palette = 7=#c0c0c0
+palette = 8=#c0c0c0
+palette = 9=#ffc0c0
+palette = 10=#00ff00
+palette = 11=#ffff00
+palette = 12=#0000ff
+palette = 13=#ff00ff
+palette = 14=#00ffff
+palette = 15=#ffffff
+
+# Jojo uses highest-visibility contrast:
+#
+# background = ffffff White
+# foreground = 000000 Black
+
+background = ffffff
+foreground = 000000
+
+# Jojo theme uses high-visibility navigation colors:
+#
+# cursor-color = ff8888 Light Red
+# selection-background = aaaaaa Light Gray
+# selection-foreground = 000000 Black
+
+cursor-color = ff8888
+selection-background = aaaaaa
+selection-foreground = 000000
